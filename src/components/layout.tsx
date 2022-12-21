@@ -260,7 +260,8 @@ const Layout: FC<{
         <div className='p-2 h-screen space-y-2'>
           <ChainProgress />
           <div className='p-4 text-yellow-700 bg-yellow-100 rounded shadow flex items-center space-x-1'>
-            We no longer maintain RoundTable V1, please move to <a className='text-sky-900' href='https://roundtable.adaodapp.xyz' target='_blank' rel='noreferrer'>RoundTable V2</a> ASAP.
+            <span>We no longer maintain RoundTable V1, please move to</span>
+            <a className='text-sky-900' href='https://roundtable.adaodapp.xyz' target='_blank' rel='noreferrer'>RoundTable V2</a>
           </div>
           {children}
         </div>
